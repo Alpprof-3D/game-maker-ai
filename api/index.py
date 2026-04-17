@@ -7,7 +7,7 @@ from PIL import Image
 app = Flask(__name__, template_folder='templates', static_folder='static')
 
 # Gemini API Yapılandırması
-api_key = os.environ.get("GEMINI_API_KEY")
+api_key = os.environ.get("AIzaSyAnYVysUrWvmlufV5c26JEhysk8iCUT-H4")
 genai.configure(api_key=api_key)
 
 # GAME MAKER AI Kişiliği ve Sistem Talimatı
